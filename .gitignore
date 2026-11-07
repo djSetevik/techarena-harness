@@ -1,0 +1,26 @@
+cat > .gitignore <<'EOF'
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+agent-registry-key*
+team.json
+registration_response.json
+register_args.json
+harness_report.json
+
+*.log
+logs/
+output/
+outputs/
+
+.idea/
+.vscode/
+EOF
