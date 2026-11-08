@@ -1,0 +1,23 @@
+# Merge into .dockerignore and use explicit COPY of runtime code in Dockerfile.
+.git
+.venv
+.venv-dev
+.local
+.env
+.env.*
+__pycache__
+.pytest_cache
+*.pyc
+tests
+docs
+materials
+artifacts
+logs
+*.log
+AGENTS.md
+agent-registry-key*
+registration_response.json
+team.json
+register_args.json
+harness_report.json
+.codex

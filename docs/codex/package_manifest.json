@@ -1,0 +1,163 @@
+{
+  "name": "techarena-codex-kit",
+  "revision": 2,
+  "prepared_date": "2026-11-08",
+  "description": "Instructions and supporting materials; user-reported permission U1 allows Codex for development only; not a completed competition solver",
+  "files": [
+    {
+      "path": "ACCEPTANCE_TESTS.md",
+      "size_bytes": 11159,
+      "sha256": "3275370fd9b6549d3761b25d8420bfac3701a602b5fdcade49b8819bb1def661"
+    },
+    {
+      "path": "AGENTS.md",
+      "size_bytes": 7782,
+      "sha256": "6ad05d016920a9e7e491548d521a2161eb6da4717956f37995440fb984cbe413"
+    },
+    {
+      "path": "BASELINE_AUDIT.md",
+      "size_bytes": 5127,
+      "sha256": "08b8701347d97b5d61ff05b147601b748659ca2df6969a328fa23c66fd911264"
+    },
+    {
+      "path": "DEVELOPMENT_PLAN.md",
+      "size_bytes": 3590,
+      "sha256": "49774fb0ea5c2cac1ebf9fd2db29a69ca9f9fb0036433e4573b5fb981d1b3d43"
+    },
+    {
+      "path": "EXPERIMENTS.md",
+      "size_bytes": 3593,
+      "sha256": "d6a72d7ef769a87a06965d686d0380b03984168fa2226a93b124a8ee7fec28d5"
+    },
+    {
+      "path": "IMPLEMENTATION_SPEC.md",
+      "size_bytes": 20728,
+      "sha256": "4e8cad4926304420428731ffb8435e6b6e9f0c87ba50fb68dfc9560f9a6a564d"
+    },
+    {
+      "path": "PACKAGE_VALIDATION.md",
+      "size_bytes": 4963,
+      "sha256": "6609588389164c978456d5fef3e7622b0b4489c6a869a7d094f7ca14298bf21b"
+    },
+    {
+      "path": "PROJECT_BRIEF.md",
+      "size_bytes": 7643,
+      "sha256": "130cb188fdcaaa42ae12f67056bd815a0a0f26f2a3e86594f5ed51686aee54b7"
+    },
+    {
+      "path": "README_START_HERE.md",
+      "size_bytes": 16416,
+      "sha256": "b1522724d450fb1f1056a81ddeaf0cce898d38b1c10d8ded1843260b3f093368"
+    },
+    {
+      "path": "REFERENCES.md",
+      "size_bytes": 3529,
+      "sha256": "36755df6be9f0d8ca15c39ba323ba668b1e4325a03d52b097ea7e69c93f8c697"
+    },
+    {
+      "path": "RULES_AND_OPEN_QUESTIONS.md",
+      "size_bytes": 6890,
+      "sha256": "e5ecdc624fcf87007b8b43b58ce78b8a592028884d12d278cf0f1d7d4bb899cf"
+    },
+    {
+      "path": "START_PROMPT.md",
+      "size_bytes": 3989,
+      "sha256": "3f69f18dec95e22611b848dea459b6359ca2b9c53ea0c2e47a5bb1bdeb5ced07"
+    },
+    {
+      "path": "materials/baseline/techarena-harness-starter.zip",
+      "size_bytes": 6289,
+      "sha256": "1573f018973cea76141c9591753e2ee6c4f2d48c5f2b0210e6786caa29eaa823"
+    },
+    {
+      "path": "materials/clarifications/codex-development-authorization.ru.md",
+      "size_bytes": 3093,
+      "sha256": "03b2dc845986b84c0811c47fb8b2c3e1ed46762adc758ce0736c056bf5399820"
+    },
+    {
+      "path": "materials/original/qa-2026-11-07.ru.md",
+      "size_bytes": 6123,
+      "sha256": "fd460800b092b8883aec2684a78a75200b64f19c450cf722cb9f4f6056aad6a7"
+    },
+    {
+      "path": "materials/original/regulations.ru.md",
+      "size_bytes": 9683,
+      "sha256": "f24256eda3d15ffbf6576ce67b8f158dfcb0a1b1e12c5abfd8e8342fff6235fd"
+    },
+    {
+      "path": "materials/original/task-dir.zip",
+      "size_bytes": 80978,
+      "sha256": "9982643201421d553bf84c900836f46ac685ac7ca0f8d803bade5cbb9966b60e"
+    },
+    {
+      "path": "materials/task_inventory.json",
+      "size_bytes": 8820,
+      "sha256": "75b34580ac73a77fb4c088be33c732b411f97484c4ae58ca1513a0a8b2e7a384"
+    },
+    {
+      "path": "permission_update.json",
+      "size_bytes": 21621,
+      "sha256": "19a3246f22501edf7b8de8365920b4290e3151f45c38373743d405c1804b67df"
+    },
+    {
+      "path": "prompts/01_AUDIT_AND_OFFLINE.md",
+      "size_bytes": 3903,
+      "sha256": "fc6aefaba8de795c348c43701b56abe608fb0acdc30d4a850bef1ddb7bd9606e"
+    },
+    {
+      "path": "prompts/02_BUDGET_AND_PLANNER.md",
+      "size_bytes": 1701,
+      "sha256": "fb47dc85c3aeaf49bcec8e805feecef011f24fcc559b500f04141771900b6c8c"
+    },
+    {
+      "path": "prompts/03_OJ_AND_SOLVERS.md",
+      "size_bytes": 2063,
+      "sha256": "29c0989d5471b93bab1b18edb4f64ec4862b4fb56159e7c3e5960cac05e4b769"
+    },
+    {
+      "path": "prompts/04_EVALUATION_AND_DOCKER.md",
+      "size_bytes": 1735,
+      "sha256": "8117aaca75aac3a6ac0c3c3528d6caea2b7433231beb63eedf0ac6b4c8448160"
+    },
+    {
+      "path": "prompts/05_REVIEW.md",
+      "size_bytes": 1777,
+      "sha256": "588a84e5bb227a2e84ce7799fcf4a85a9052b2d7cb6eb1b9cc648fda607dd944"
+    },
+    {
+      "path": "templates/dockerignore.append",
+      "size_bytes": 307,
+      "sha256": "899d710f02d26723b0e557a5e0852e77c25432afa7e21119339bff153e1cd13d"
+    },
+    {
+      "path": "templates/env.example",
+      "size_bytes": 380,
+      "sha256": "fa4556bde9570034d3ce872d1b8d6a612a099823f322504086d3129ecef4d462"
+    },
+    {
+      "path": "templates/gitignore.append",
+      "size_bytes": 303,
+      "sha256": "a944f3fd82f2d121a4b2135e7c19046a869c89613c47778deb32560137dc086d"
+    },
+    {
+      "path": "tools/apply_permission_update.py",
+      "size_bytes": 6510,
+      "sha256": "05dc509966ba3de41c6477022f2881de415d566a8a8857cbdaca5b6780c6d896"
+    },
+    {
+      "path": "tools/grade_non_coding.py",
+      "size_bytes": 2778,
+      "sha256": "89edbf341e7eb0823ed581a908bd4ba3812604d88a8eb6edca70230faefca5e2"
+    },
+    {
+      "path": "tools/prepare_samples.py",
+      "size_bytes": 5483,
+      "sha256": "c005d18c081d85e85f21d44f55bc1b19a62e10a656072672c7acb4bbce78743f"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "size_bytes": 1279,
+      "sha256": "22a2e80c71a70d7ad146ee552a3465f2ada060e63bf9a0c6267d0a3a792ded8d"
+    }
+  ]
+}

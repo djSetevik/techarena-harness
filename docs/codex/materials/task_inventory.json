@@ -1,0 +1,173 @@
+{
+  "source": "materials/original/task-dir.zip",
+  "tasks": [
+    {
+      "task_directory": "coding_0003",
+      "task_type": "coding",
+      "reward": 2,
+      "check": "unittest",
+      "instruction": "Run `python3 test_mylib.py` in the current directory; some tests fail. Fix the bugs in mylib.py (do not edit the tests) until all tests pass. Work only inside the current directory. When you are done, write ONLY the word DONE to the file answer.txt in the current directory (for example with bash: echo 42 > answer.txt).",
+      "has_expected_in_original": true,
+      "files": [
+        "task.json",
+        "workspace/mylib.py",
+        "workspace/test_mylib.py"
+      ]
+    },
+    {
+      "task_directory": "coding_0007",
+      "task_type": "coding",
+      "reward": 2,
+      "check": "unittest",
+      "instruction": "Run `python3 test_mylib.py` in the current directory; some tests fail. Fix the bugs in mylib.py (do not edit the tests) until all tests pass. Work only inside the current directory. When you are done, write ONLY the word DONE to the file answer.txt in the current directory (for example with bash: echo 42 > answer.txt).",
+      "has_expected_in_original": true,
+      "files": [
+        "task.json",
+        "workspace/mylib.py",
+        "workspace/test_mylib.py"
+      ]
+    },
+    {
+      "task_directory": "data_analysis_0002",
+      "task_type": "data_analysis",
+      "reward": 3,
+      "check": "exact_int",
+      "instruction": "The file sales.csv has columns order_id,region,product,month,units,price (20 rows). How many units of product 'widget' were sold in months 7 through 8 inclusive? Use bash with python3 to compute it. Work only inside the current directory. When you are done, write ONLY the final answer to the file answer.txt in the current directory (for example with bash: echo 42 > answer.txt).",
+      "has_expected_in_original": true,
+      "files": [
+        "task.json",
+        "workspace/sales.csv"
+      ]
+    },
+    {
+      "task_directory": "data_analysis_0006",
+      "task_type": "data_analysis",
+      "reward": 3,
+      "check": "exact_int",
+      "instruction": "The file sales.csv has columns order_id,region,product,month,units,price (300 rows). How many units of product 'widget' were sold in months 5 through 6 inclusive? Use bash with python3 to compute it. Work only inside the current directory. When you are done, write ONLY the final answer to the file answer.txt in the current directory (for example with bash: echo 42 > answer.txt).",
+      "has_expected_in_original": true,
+      "files": [
+        "task.json",
+        "workspace/sales.csv"
+      ]
+    },
+    {
+      "task_directory": "math_0000",
+      "task_type": "math",
+      "reward": 5,
+      "check": "exact_int",
+      "instruction": "A warehouse starts with 1752 boxes. Then the stock is split equally into 2 warehouses and it keeps one share (rounded down). Then the stock is doubled by merging with a sister warehouse. Then the stock is split equally into 3 warehouses and it keeps one share (rounded down). Then the stock is doubled by merging with a sister warehouse. Then the stock is split equally into 3 warehouses and it keeps one share (rounded down). How many boxes does it have at the end? Compute it with the bash tool (python3 -c). Work only inside the current directory. When you are done, write ONLY the final answer to the file answer.txt in the current directory (for example with bash: echo 42 > answer.txt).",
+      "has_expected_in_original": true,
+      "files": [
+        "task.json"
+      ]
+    },
+    {
+      "task_directory": "math_0004",
+      "task_type": "math",
+      "reward": 2,
+      "check": "exact_int",
+      "instruction": "A warehouse starts with 1669 boxes. It ships 36 boxes per day for 3 days. It receives 2 deliveries of 87 boxes each. How many boxes does it have at the end? Compute it with the bash tool (python3 -c). Work only inside the current directory. When you are done, write ONLY the final answer to the file answer.txt in the current directory (for example with bash: echo 42 > answer.txt).",
+      "has_expected_in_original": true,
+      "files": [
+        "task.json"
+      ]
+    },
+    {
+      "task_directory": "search_0001",
+      "task_type": "search",
+      "reward": 1,
+      "check": "exact_str",
+      "instruction": "The directory kb/ contains a small knowledge base of markdown files. In which year was Irina Smith born? Use the file tools or bash (ls, grep, cat) to find it. Work only inside the current directory. When you are done, write ONLY the final answer to the file answer.txt in the current directory (for example with bash: echo 42 > answer.txt).",
+      "has_expected_in_original": true,
+      "files": [
+        "task.json",
+        "workspace/kb/company_arktika_labs.md",
+        "workspace/kb/company_bluefin_systems.md",
+        "workspace/kb/company_cobalt_works.md",
+        "workspace/kb/company_dune_robotics.md",
+        "workspace/kb/company_ember_bio.md",
+        "workspace/kb/company_fjord_data.md",
+        "workspace/kb/company_granite_ai.md",
+        "workspace/kb/company_helix_motors.md",
+        "workspace/kb/company_iris_optics.md",
+        "workspace/kb/company_juniper_foods.md",
+        "workspace/kb/person_alice_novak.md",
+        "workspace/kb/person_alice_smith.md",
+        "workspace/kb/person_chen_haddad.md",
+        "workspace/kb/person_chen_wang.md",
+        "workspace/kb/person_dmitri_kowalski.md",
+        "workspace/kb/person_dmitri_wang.md",
+        "workspace/kb/person_farid_petrov.md",
+        "workspace/kb/person_farid_sato.md",
+        "workspace/kb/person_grace_haddad.md",
+        "workspace/kb/person_hiro_sato.md",
+        "workspace/kb/person_irina_haddad.md",
+        "workspace/kb/person_irina_smith.md",
+        "workspace/kb/person_jonas_haddad.md",
+        "workspace/kb/person_kira_haddad.md",
+        "workspace/kb/person_kira_novak.md",
+        "workspace/kb/person_kira_petrov.md",
+        "workspace/kb/person_nikolai_sato.md",
+        "workspace/kb/person_olga_kowalski.md",
+        "workspace/kb/person_olga_smith.md",
+        "workspace/kb/person_quinn_garcia.md",
+        "workspace/kb/person_rosa_kowalski.md",
+        "workspace/kb/person_rosa_sato.md",
+        "workspace/kb/person_sergei_muller.md",
+        "workspace/kb/person_sergei_petrov.md",
+        "workspace/kb/person_tanya_garcia.md",
+        "workspace/kb/person_tanya_haddad.md"
+      ]
+    },
+    {
+      "task_directory": "search_0005",
+      "task_type": "search",
+      "reward": 2,
+      "check": "exact_str",
+      "instruction": "The directory kb/ contains a small knowledge base of markdown files. In which city is the headquarters of Sergei Garcia's employer? Use the file tools or bash (ls, grep, cat) to find it. Work only inside the current directory. When you are done, write ONLY the final answer to the file answer.txt in the current directory (for example with bash: echo 42 > answer.txt).",
+      "has_expected_in_original": true,
+      "files": [
+        "task.json",
+        "workspace/kb/company_arktika_labs.md",
+        "workspace/kb/company_bluefin_systems.md",
+        "workspace/kb/company_cobalt_works.md",
+        "workspace/kb/company_dune_robotics.md",
+        "workspace/kb/company_ember_bio.md",
+        "workspace/kb/company_fjord_data.md",
+        "workspace/kb/company_granite_ai.md",
+        "workspace/kb/company_helix_motors.md",
+        "workspace/kb/company_iris_optics.md",
+        "workspace/kb/company_juniper_foods.md",
+        "workspace/kb/person_boris_garcia.md",
+        "workspace/kb/person_boris_ivanova.md",
+        "workspace/kb/person_boris_novak.md",
+        "workspace/kb/person_chen_ivanova.md",
+        "workspace/kb/person_chen_petrov.md",
+        "workspace/kb/person_chen_sato.md",
+        "workspace/kb/person_dmitri_smith.md",
+        "workspace/kb/person_dmitri_wang.md",
+        "workspace/kb/person_farid_haddad.md",
+        "workspace/kb/person_farid_petrov.md",
+        "workspace/kb/person_grace_smith.md",
+        "workspace/kb/person_hiro_garcia.md",
+        "workspace/kb/person_irina_sato.md",
+        "workspace/kb/person_jonas_ivanova.md",
+        "workspace/kb/person_kira_wang.md",
+        "workspace/kb/person_maya_ivanova.md",
+        "workspace/kb/person_maya_sato.md",
+        "workspace/kb/person_nikolai_petrov.md",
+        "workspace/kb/person_olga_muller.md",
+        "workspace/kb/person_pavel_novak.md",
+        "workspace/kb/person_pavel_petrov.md",
+        "workspace/kb/person_pavel_sato.md",
+        "workspace/kb/person_pavel_smith.md",
+        "workspace/kb/person_rosa_haddad.md",
+        "workspace/kb/person_rosa_sato.md",
+        "workspace/kb/person_rosa_wang.md",
+        "workspace/kb/person_sergei_garcia.md",
+        "workspace/kb/person_sergei_muller.md"
+      ]
+    }
+  ]
+}

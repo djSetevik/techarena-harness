@@ -1,0 +1,20 @@
+# Merge into the existing .gitignore; do not replace user rules.
+.venv-dev/
+.local/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+logs/
+artifacts/
+*.log
+agent-registry-key*
+registration_response.json
+team.json
+register_args.json
+harness_report.json
+.codex/auth.json
