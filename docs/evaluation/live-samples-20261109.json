@@ -1,0 +1,71 @@
+{
+  "model": "qwen3.8-27b",
+  "max_calls": 4,
+  "calls": 2,
+  "reasoning_usage": "included",
+  "safety_units": 50000,
+  "worker_errors": [],
+  "limit_units": 100000,
+  "actual_units": 7337,
+  "unresolved_units": 0,
+  "reserved_units": 0,
+  "available_units": 42663,
+  "closed": false,
+  "external_grading": {
+    "results": {
+      "coding_0003": {
+        "task_type": "coding",
+        "passed": true,
+        "answer_present": true
+      },
+      "math_0000": {
+        "task_type": "math",
+        "passed": true,
+        "answer_present": true
+      },
+      "data_analysis_0002": {
+        "task_type": "data_analysis",
+        "passed": true,
+        "answer_present": true
+      },
+      "search_0001": {
+        "task_type": "search",
+        "passed": true,
+        "answer_present": true
+      },
+      "coding_0007": {
+        "task_type": "coding",
+        "passed": true,
+        "answer_present": true
+      },
+      "search_0005": {
+        "task_type": "search",
+        "passed": true,
+        "answer_present": true
+      },
+      "math_0004": {
+        "task_type": "math",
+        "passed": true,
+        "answer_present": true
+      },
+      "data_analysis_0006": {
+        "task_type": "data_analysis",
+        "passed": true,
+        "answer_present": true
+      }
+    },
+    "verified_reward": 20,
+    "protected_inputs_unchanged": true
+  },
+  "input_tokens": 1337,
+  "output_tokens_including_reasoning": 600,
+  "reasoning_tokens": 355,
+  "cached_input_tokens": 0,
+  "output_equivalent_tokens": 733.7,
+  "runtime_sha256": "070897830c44cb80d72bc4a82d27d583a6f62e6a014c8f5ce4ed3ddede6b28d8",
+  "image": "techarena:validated",
+  "execution_mode": "Host shared-budget controller; SDK-only client containers; separate network-none verification containers without credentials",
+  "dataset": "Eight supplied visible examples on a fresh label-free copy; not hidden evaluation",
+  "image_id": "sha256:b4f7d86efecf4a844faeac0991f11d1b16392c6a433550b7e22ae03c7f58dad0",
+  "original_archive_unchanged": true
+}

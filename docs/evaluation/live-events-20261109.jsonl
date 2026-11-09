@@ -1,0 +1,37 @@
+{"event": "task_prediction", "scope": "/tmp/techarena-live-20261109/tasks/math_0000", "sequence": 1, "task_type": "math", "instruction_bytes": 692, "expected_units": 3252, "high_units": 8552, "output_cap": 512, "version": "static-v1-uncalibrated", "approximate": true}
+{"event": "task_prediction", "scope": "/tmp/techarena-live-20261109/tasks/coding_0003", "sequence": 2, "task_type": "coding", "instruction_bytes": 320, "expected_units": 10560, "high_units": 23168, "output_cap": 2048, "version": "static-v1-uncalibrated", "approximate": true}
+{"event": "task_prediction", "scope": "/tmp/techarena-live-20261109/tasks/math_0004", "sequence": 3, "task_type": "math", "instruction_bytes": 382, "expected_units": 2942, "high_units": 7932, "output_cap": 512, "version": "static-v1-uncalibrated", "approximate": true}
+{"event": "task_prediction", "scope": "/tmp/techarena-live-20261109/tasks/search_0001", "sequence": 4, "task_type": "search", "instruction_bytes": 341, "expected_units": 2901, "high_units": 7850, "output_cap": 512, "version": "static-v1-uncalibrated", "approximate": true}
+{"event": "task_prediction", "scope": "/tmp/techarena-live-20261109/tasks/coding_0007", "sequence": 5, "task_type": "coding", "instruction_bytes": 320, "expected_units": 10560, "high_units": 23168, "output_cap": 2048, "version": "static-v1-uncalibrated", "approximate": true}
+{"event": "task_prediction", "scope": "/tmp/techarena-live-20261109/tasks/data_analysis_0002", "sequence": 6, "task_type": "data_analysis", "instruction_bytes": 380, "expected_units": 2940, "high_units": 7928, "output_cap": 512, "version": "static-v1-uncalibrated", "approximate": true}
+{"event": "task_prediction", "scope": "/tmp/techarena-live-20261109/tasks/data_analysis_0006", "sequence": 7, "task_type": "data_analysis", "instruction_bytes": 381, "expected_units": 2941, "high_units": 7930, "output_cap": 512, "version": "static-v1-uncalibrated", "approximate": true}
+{"event": "task_prediction", "scope": "/tmp/techarena-live-20261109/tasks/search_0005", "sequence": 8, "task_type": "search", "instruction_bytes": 368, "expected_units": 2928, "high_units": 7904, "output_cap": 512, "version": "static-v1-uncalibrated", "approximate": true}
+{"event": "feasibility", "scope": "/tmp/techarena-live-20261109/tasks/math_0000", "sequence": 9, "status": "SOLVABLE", "reason_code": "EXACT_WAREHOUSE", "scope_complete": true}
+{"event": "answer_saved", "scope": "/tmp/techarena-live-20261109/tasks/math_0000", "sequence": 10, "method": "deterministic"}
+{"event": "feasibility", "scope": "/tmp/techarena-live-20261109/tasks/math_0004", "sequence": 11, "status": "SOLVABLE", "reason_code": "EXACT_WAREHOUSE", "scope_complete": true}
+{"event": "answer_saved", "scope": "/tmp/techarena-live-20261109/tasks/math_0004", "sequence": 12, "method": "deterministic"}
+{"event": "feasibility", "scope": "/tmp/techarena-live-20261109/tasks/data_analysis_0002", "sequence": 13, "status": "SOLVABLE", "reason_code": "EXACT_SUM", "scope_complete": true}
+{"event": "answer_saved", "scope": "/tmp/techarena-live-20261109/tasks/data_analysis_0002", "sequence": 14, "method": "deterministic"}
+{"event": "feasibility", "scope": "/tmp/techarena-live-20261109/tasks/data_analysis_0006", "sequence": 15, "status": "SOLVABLE", "reason_code": "EXACT_SUM", "scope_complete": true}
+{"event": "answer_saved", "scope": "/tmp/techarena-live-20261109/tasks/data_analysis_0006", "sequence": 16, "method": "deterministic"}
+{"event": "feasibility", "scope": "/tmp/techarena-live-20261109/tasks/search_0005", "sequence": 17, "status": "SOLVABLE", "reason_code": "SUPPORTED_KB_CHAIN", "scope_complete": true}
+{"event": "answer_saved", "scope": "/tmp/techarena-live-20261109/tasks/search_0005", "sequence": 18, "method": "deterministic"}
+{"event": "feasibility", "scope": "/tmp/techarena-live-20261109/tasks/search_0001", "sequence": 19, "status": "SOLVABLE", "reason_code": "SUPPORTED_KB_CHAIN", "scope_complete": true}
+{"event": "answer_saved", "scope": "/tmp/techarena-live-20261109/tasks/search_0001", "sequence": 20, "method": "deterministic"}
+{"event": "feasibility", "scope": "/tmp/techarena-live-20261109/tasks/coding_0003", "sequence": 21, "status": "UNKNOWN", "reason_code": "UNSUPPORTED_TASK_TYPE", "scope_complete": false}
+{"event": "verification", "scope": "/tmp/techarena-live-20261109/tasks/coding_0003", "sequence": 22, "attempt": 0, "passed": false, "reason": "tests_failed"}
+{"event": "feasibility", "scope": "/tmp/techarena-live-20261109/tasks/coding_0007", "sequence": 23, "status": "UNKNOWN", "reason_code": "UNSUPPORTED_TASK_TYPE", "scope_complete": false}
+{"event": "verification", "scope": "/tmp/techarena-live-20261109/tasks/coding_0007", "sequence": 24, "attempt": 0, "passed": false, "reason": "tests_failed"}
+{"event": "verification", "scope": "/tmp/techarena-live-20261109/tasks/coding_0003", "sequence": 25, "attempt": 0, "passed": false, "reason": "tests_failed"}
+{"event": "reestimate", "scope": "/tmp/techarena-live-20261109/tasks/coding_0003", "sequence": 26, "high_units": 27844, "approximate": true}
+{"event": "llm_request", "scope": "/tmp/techarena-live-20261109/tasks/coding_0003", "sequence": 27, "model": "qwen3.8-27b", "output_cap": 2048, "reservation_units": 27844}
+{"event": "llm_usage", "scope": "/tmp/techarena-live-20261109/tasks/coding_0003", "sequence": 28, "input_tokens": 720, "output_tokens": 385, "reasoning_tokens": 247, "cached_tokens": 0, "cost_units": 4570, "raw_usage": {"input_tokens": 720, "output_tokens": 385, "reasoning_tokens": 247, "cache_tokens": 0}}
+{"event": "verification", "scope": "/tmp/techarena-live-20261109/tasks/coding_0003", "sequence": 29, "attempt": 1, "passed": true, "reason": "passed"}
+{"event": "answer_saved", "scope": "/tmp/techarena-live-20261109/tasks/coding_0003", "sequence": 30, "method": "model_format_checked"}
+{"event": "verification", "scope": "/tmp/techarena-live-20261109/tasks/coding_0007", "sequence": 31, "attempt": 0, "passed": false, "reason": "tests_failed"}
+{"event": "reestimate", "scope": "/tmp/techarena-live-20261109/tasks/coding_0007", "sequence": 32, "high_units": 27226, "approximate": true}
+{"event": "llm_request", "scope": "/tmp/techarena-live-20261109/tasks/coding_0007", "sequence": 33, "model": "qwen3.8-27b", "output_cap": 2048, "reservation_units": 27226}
+{"event": "llm_usage", "scope": "/tmp/techarena-live-20261109/tasks/coding_0007", "sequence": 34, "input_tokens": 617, "output_tokens": 215, "reasoning_tokens": 108, "cached_tokens": 0, "cost_units": 2767, "raw_usage": {"input_tokens": 617, "output_tokens": 215, "reasoning_tokens": 108, "cache_tokens": 0}}
+{"event": "verification", "scope": "/tmp/techarena-live-20261109/tasks/coding_0007", "sequence": 35, "attempt": 1, "passed": true, "reason": "passed"}
+{"event": "answer_saved", "scope": "/tmp/techarena-live-20261109/tasks/coding_0007", "sequence": 36, "method": "model_format_checked"}
+{"event": "budget_summary", "scope": "run", "sequence": 37, "limit_units": 100000, "actual_units": 7337, "unresolved_units": 0, "reserved_units": 0, "available_units": 42663, "closed": false}

@@ -1,0 +1,27 @@
+{
+  "layers": 9,
+  "layer_entries": 57107,
+  "app_files": [
+    "app/constraints.txt",
+    "app/requirements.txt",
+    "app/run_agent.py",
+    "app/src/__init__.py",
+    "app/src/answer_writer.py",
+    "app/src/budget.py",
+    "app/src/coding.py",
+    "app/src/domain.py",
+    "app/src/estimator.py",
+    "app/src/feasibility.py",
+    "app/src/math_solver.py",
+    "app/src/model_solver.py",
+    "app/src/oj_adapter.py",
+    "app/src/scheduler.py",
+    "app/src/solvers.py",
+    "app/src/task_loader.py",
+    "app/src/telemetry.py",
+    "app/src/verification.py"
+  ],
+  "forbidden_artifact_paths": [],
+  "passed": true,
+  "scope": "Known forbidden paths and /app allowlist across all layers; no secret-content scanning"
+}

@@ -18,3 +18,7 @@ register_args.json
 *.key
 __MACOSX/
 .DS_Store
+
+.local/
+
+llm.api.json

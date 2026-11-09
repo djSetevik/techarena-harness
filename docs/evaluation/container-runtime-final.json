@@ -1,0 +1,10 @@
+{
+  "uid": 10001,
+  "python": "3.12.12",
+  "openjiuwen": "0.1.19",
+  "runtime_sha256": "070897830c44cb80d72bc4a82d27d583a6f62e6a014c8f5ce4ed3ddede6b28d8",
+  "rootfs_read_only": true,
+  "codex_executable_present": false,
+  "constrained_packages": 160,
+  "dependency_mismatches": []
+}

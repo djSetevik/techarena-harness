@@ -1,0 +1,12 @@
+# Allow only the explicit Python runtime and pinned direct requirements.
+**
+!requirements.txt
+!constraints.txt
+!run_agent.py
+!src/
+!src/*.py
+!tools/
+!tools/install_locked.py
+**/__pycache__
+**/*.pyc
+**/*.pyo

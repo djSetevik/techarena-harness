@@ -1,0 +1,57 @@
+{
+  "purpose": "Connectivity/routing probes only, not comparative quality",
+  "decisions": [
+    {
+      "scope": "/tmp/techarena-routing-live-20261109/tasks/beta",
+      "model": "qwen3.6-35b-a3b",
+      "complexity": "complex",
+      "score": 4,
+      "reason": "complexity_threshold"
+    },
+    {
+      "scope": "/tmp/techarena-routing-live-20261109/tasks/alpha",
+      "model": "qwen3.8-27b",
+      "complexity": "simple",
+      "score": 0,
+      "reason": "simple_features"
+    }
+  ],
+  "requests": [
+    "qwen3.6-35b-a3b",
+    "qwen3.8-27b"
+  ],
+  "verified": {
+    "alpha": true,
+    "beta": true
+  },
+  "worker_errors": [],
+  "calls": 2,
+  "limit_units": 20000,
+  "actual_units": 5306,
+  "unresolved_units": 0,
+  "reserved_units": 0,
+  "available_units": 14694,
+  "closed": false,
+  "usage_by_model": [
+    {
+      "model": "qwen3.6-35b-a3b",
+      "input_tokens": 117,
+      "output_tokens": 454,
+      "reasoning_tokens": 0,
+      "cached_tokens": 0,
+      "cost_units": 4657
+    },
+    {
+      "model": "qwen3.8-27b",
+      "input_tokens": 139,
+      "output_tokens": 51,
+      "reasoning_tokens": 37,
+      "cached_tokens": 0,
+      "cost_units": 649
+    }
+  ],
+  "output_equivalent_tokens": 530.6,
+  "runtime_sha256": "eb1292aaec240350edd35601f088ad0cd6d5833ee3ebf67b1a45cac79dbdae2e",
+  "image": "techarena:routing",
+  "policy_version": "complexity-v1-uncalibrated"
+}

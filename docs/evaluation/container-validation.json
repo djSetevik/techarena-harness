@@ -1,0 +1,75 @@
+{
+  "image": "techarena:validated",
+  "image_id": "sha256:b4f7d86efecf4a844faeac0991f11d1b16392c6a433550b7e22ae03c7f58dad0",
+  "docker_images_size": "1.36GB",
+  "inspect_size_bytes": 298294992,
+  "base_digest": "sha256:593bd06efe90efa80dc4eee3948be7c0fde4134606dd40d8dd8dbcade98e669c",
+  "cold_build_before_cli_utc": "2026-11-08T17:56:47.799Z",
+  "cold_build_first_uncached_layer_utc": "2026-11-08T18:01:22.340203399Z",
+  "cold_build_finished_utc": "2026-11-08T18:06:51.321109783Z",
+  "cold_build_upper_bound_seconds": 604,
+  "cold_build_note": "Upper bound from pre-CLI timestamp to image creation, including approval delay; uncached layer interval about 329 seconds. Not time until later observation.",
+  "container_suite": {
+    "discovered": 71,
+    "passed": 71,
+    "skipped": 0,
+    "seconds": 19.142
+  },
+  "samples": {
+    "non_coding_checked": 6,
+    "non_coding_passed": 6,
+    "verified_reward": 16,
+    "coding_live_repair": "NOT RUN",
+    "input_hashes_unchanged": true,
+    "answer_mode": "0644"
+  },
+  "docker_sigterm": {
+    "exit_code": 143,
+    "preserved_complete_answers": 1,
+    "partial_answers": 0
+  },
+  "real_proxy_calls": 0,
+  "C01": "PASS real SDK with fake transport",
+  "C02_C06": "PASS including real non-root subprocess checks",
+  "D01_D06": "PASS within documented scope",
+  "C07": "NOT RUN: needs separate live authorization",
+  "D07": "NOT RUN: final organizer model/SDK/command not available in supplied materials",
+  "runtime": {
+    "uid": 10001,
+    "python": "3.12.12",
+    "openjiuwen": "0.1.19",
+    "runtime_sha256": "070897830c44cb80d72bc4a82d27d583a6f62e6a014c8f5ce4ed3ddede6b28d8",
+    "rootfs_read_only": true,
+    "codex_executable_present": false,
+    "constrained_packages": 160,
+    "dependency_mismatches": []
+  },
+  "layer_audit": {
+    "layers": 9,
+    "layer_entries": 57107,
+    "app_files": [
+      "app/constraints.txt",
+      "app/requirements.txt",
+      "app/run_agent.py",
+      "app/src/__init__.py",
+      "app/src/answer_writer.py",
+      "app/src/budget.py",
+      "app/src/coding.py",
+      "app/src/domain.py",
+      "app/src/estimator.py",
+      "app/src/feasibility.py",
+      "app/src/math_solver.py",
+      "app/src/model_solver.py",
+      "app/src/oj_adapter.py",
+      "app/src/scheduler.py",
+      "app/src/solvers.py",
+      "app/src/task_loader.py",
+      "app/src/telemetry.py",
+      "app/src/verification.py"
+    ],
+    "forbidden_artifact_paths": [],
+    "passed": true,
+    "scope": "Known forbidden paths and /app allowlist across all layers; no secret-content scanning"
+  },
+  "repository_file_bytes_excluding_git_ignored": 544781
+}
